@@ -8,15 +8,17 @@ It's a native port of [pellad-international-web](https://github.com/yungfox/pell
 
 - OpenGL 3.3
 - FreeType 2.11+
+- CMake 3.8+
 
 ## Quick start
 
 ```console
-# posix
-$ ./build.sh
-$ ./pellad-international
+$ mkdir build
+$ cd build
+$ cmake ..
 
-# windows
-$ build_msvc.bat
-$ pellad-international.exe
+# posix
+$ make
+
+# windows... open folder with visual studio and build from there i guess...?
 ```

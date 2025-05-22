@@ -255,8 +255,8 @@ text_new(Characters* map, const wchar_t* text)
 int
 main(void)
 {   
-    const char* frag_file_path = "./shaders/texture.frag";
-    const char* vert_file_path = "./shaders/texture.vert";
+    const char* frag_file_path = "../shaders/texture.frag";
+    const char* vert_file_path = "../shaders/texture.vert";
 
     char* frag_src = read_file_as_string(frag_file_path);
     if (frag_src == NULL)
@@ -331,8 +331,8 @@ main(void)
 
     glUseProgram(program);
 
-    const char* druk_wide_path = "./fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf";
-    const char* dela_gothic_one_path = "./fonts/DelaGothicOne-Regular.ttf";
+    const char* druk_wide_path = "../fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf";
+    const char* dela_gothic_one_path = "../fonts/DelaGothicOne-Regular.ttf";
 
     FT_Library library = {0};
     FT_Error error = FT_Init_FreeType(&library);

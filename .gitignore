@@ -1,10 +1,6 @@
 .DS_Store
 .vscode/
 .vs/
-main
-pellad-international
-*.exe
-*.obj
-*.dSYM
 include/freetype2
 lib/
+build/
