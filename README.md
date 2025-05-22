@@ -17,7 +17,6 @@ $ ./build.sh
 $ ./pellad-international
 
 # windows
-# note: building on windows has not been tested yet
 $ build_msvc.bat
 $ pellad-international.exe
 ```
