@@ -6,3 +6,5 @@ pellad-international
 *.exe
 *.obj
 *.dSYM
+include/freetype2
+lib/

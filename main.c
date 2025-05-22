@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <wchar.h>
+#include <stdbool.h>
 
 #ifdef __APPLE__
 #define GL_SILENCE_DEPRECATION
